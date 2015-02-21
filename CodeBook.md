@@ -1,10 +1,9 @@
 
 Variables
 ===========
-The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. 
+For the purposes of this project, the raw data used was from "Human Activity Recognition Using Smartphones Data Set".
 
-These signals were used to estimate variables of the feature vector for each pattern:  
-'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+Mean & standard deviation were considered from following signals:
 
 <pre>
 tBodyAcc-XYZ
@@ -26,15 +25,9 @@ fBodyGyroMag
 fBodyGyroJerkMag
 </pre>
 
-The set of variables that were estimated from these signals are: 
-
-mean(): Mean value
-std(): Standard deviation
-
 R script
 ==========
 The R script works as below:
-
 * Load & combine  training & test variable data
 * Subset the variable data i.e. select the target columns
 * Add column names to the variable data
