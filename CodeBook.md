@@ -32,8 +32,8 @@ The R script works as below:
 * Subset the variable data i.e. select the target columns
 * Add column names to the variable data
 * Load & combine training & test observation information
-* Replace the numerical observation information with more meaningful information
 * Set column name for observation information
+* Replace the numerical observation information with more meaningful information
 * Create a master data frame by combining the observation information & variable information
 * Write the master data frame to a file using write.table
 
