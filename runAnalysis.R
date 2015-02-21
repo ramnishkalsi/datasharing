@@ -3,8 +3,8 @@
 analyse <- function(){
   
   #Load & combine the data sets into variables.
-  trainingSet <- read.table("./data/UCI HAR Dataset/train/X_train.txt")
-  testSet   <- read.table("./data/UCI HAR Dataset/test/X_test.txt")
+  trainingSet <- read.table("./UCI HAR Dataset/train/X_train.txt")
+  testSet   <- read.table("./UCI HAR Dataset/test/X_test.txt")
   combinedSet <- rbind(trainingSet, testSet)
   
   # Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -15,8 +15,8 @@ analyse <- function(){
   
 
   # Load & combine the observation information
-   trainingY <- read.table("./data/UCI HAR Dataset/train/y_train.txt")
-   testY   <- read.table("./data/UCI HAR Dataset/test/y_test.txt")
+   trainingY <- read.table("./UCI HAR Dataset/train/y_train.txt")
+   testY   <- read.table("./UCI HAR Dataset/test/y_test.txt")
    combinedY <- rbind(trainingY, testY)
   
   # Set the colname for the observation information.
