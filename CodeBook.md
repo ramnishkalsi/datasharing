@@ -6,6 +6,7 @@ The features selected for this database come from the accelerometer and gyroscop
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
+<pre>
 tBodyAcc-XYZ
 tGravityAcc-XYZ
 tBodyAccJerk-XYZ
@@ -23,6 +24,7 @@ fBodyAccMag
 fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
+</pre>
 
 The set of variables that were estimated from these signals are: 
 
