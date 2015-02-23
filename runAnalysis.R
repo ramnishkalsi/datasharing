@@ -1,4 +1,4 @@
-# six activities (WALKING, , , , , ) 
+# Analyse Samsung data
 
 analyse <- function(){
   library(plyr)
